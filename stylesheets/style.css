@@ -109,17 +109,31 @@ a:hover {
   background-color: #F3F1E3;
 }
 
+span {
+  font-size: 1.2em;
+  font-family: 'Raleway', sans-serif;
+}
+
+.donate-link {
+  font-size: 3em;
+  font-family: 'Raleway', sans-serif;
+}
+
 .sponsor-logo-container {
   margin: 40px 0;
 }
 
 .sponsor-logo {
   display: block;
-  margin: auto;
+  margin: 10px auto;
   height: 80px;
 }
 
-.col-md-4 .sponsor-logo {
+.elite {
+  height: 70px;
+}
+
+.long-logo {
   height: 50px;
 }
 
@@ -202,6 +216,12 @@ footer p {
   .walk-info {
     float: none;
     width: 100vw;
+  }
+  .sponsor-logo {
+    height: 60px;
+  }
+  .long-logo {
+    height: 45px;
   }
   form {
     width: 80%;
