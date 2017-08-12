@@ -1,0 +1,235 @@
+/* Fonts */
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 1px;
+  color: #ED8600;
+}
+
+h2 {
+  margin-top: 0;
+  font-family: 'Arapey', serif;
+  font-size: 4em;
+  color: #fff;
+  text-shadow: 2px 2px 8px #222222;
+}
+
+h3 {
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 1px;
+  color: #ED8600;
+}
+
+p {
+  font-family: 'Open Sans', 'Helvetica', sans-serif;
+  font-size: 1.2em;
+  color: #4F2C00;
+}
+
+
+/* Navbar */
+
+header {
+  background-color: #fff;
+}
+
+.branding {
+  display: inline-block;
+}
+
+.social-media {
+  display: inline-block;
+  float: right;
+}
+
+#logo {
+  display: block;
+  margin: auto;
+  width: 20%;
+}
+
+.navbar {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+  margin: 0;
+}
+
+.navbar li {
+  display: inline;
+  padding: 0 30px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.8em;
+  letter-spacing: 1px;
+}
+
+a {
+  color: #4F2C00;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #F3BE79;
+  transition: 0.2s;
+}
+
+
+/* Jumbotron */
+
+.walk-details {
+  color: #fff;
+}
+
+.parallax {
+  background-image: url("../images/woods.jpeg");
+  height: 65vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.walk-info {
+  float: right;
+  margin-right: 200px;
+  padding: 1% 2%;
+  height: 100%;
+  width: 300px;
+  background-color: rgba(255, 128, 13, 0.7);
+}
+
+
+/* Content */
+
+.content {
+  padding: 60px 0;
+}
+
+.about, .contact {
+  background-color: #F3F1E3;
+}
+
+span {
+  font-size: 1.2em;
+  font-family: 'Raleway', sans-serif;
+}
+
+.donate-link {
+  font-size: 3em;
+  font-family: 'Raleway', sans-serif;
+}
+
+.sponsor-logo-container {
+  margin: 40px 0;
+}
+
+.sponsor-logo {
+  display: block;
+  margin: 10px auto;
+  height: 80px;
+}
+
+.elite {
+  height: 70px;
+}
+
+.long-logo {
+  height: 50px;
+}
+
+.profile-image {
+  width: 100%;
+  border: 1px solid #9E5900;
+}
+
+
+/* Contact Form */
+
+form {
+  width: 400px;
+  margin: 20px auto;
+}
+
+.form-field {
+  height: 40px;
+  width: 400px;
+  margin: 2px 0;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 1px;
+  font-size: 16px;
+  background-color: #FAFAFA;
+  border: none;
+}
+
+textarea {
+  width: 400px;
+  height: 300px;
+  margin-top: 10px;
+  font-family: 'Open Sans', 'Helvetica', sans-serif;
+  background-color: #FAFAFA;
+  border: none;
+}
+
+.form-button {
+  height: 40px;
+  width: 140px;
+  display: block;
+  margin: 0 auto;
+  color: #fff;
+  border: none;
+  background-color: #ED8600;
+}
+
+footer {
+  height: 50px;
+  background-color: #9E5900;
+}
+
+footer p {
+  padding-top: 15px;
+  color: #fff;
+}
+
+
+/* Mobile */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 375px) {
+  h2 {
+    font-size: 3em;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 736px) {
+  #logo {
+    width: 70%;
+  }
+  nav {
+    margin-top: 10px;
+  }
+  .navbar li {
+    padding: 0;
+  }
+  .parallax {
+    height: 55vh;
+    clear: both;
+  }
+  .walk-info {
+    float: none;
+    width: 100vw;
+  }
+  .sponsor-logo {
+    height: 60px;
+  }
+  .long-logo {
+    height: 45px;
+  }
+  form {
+    width: 80%;
+  }
+  .form-field {
+    width: 100%;
+  }
+  textarea {
+    width: 100%;
+  }
+}
